@@ -9,7 +9,8 @@
     "start": "npx tsc && node build/proyectoCoingecko/server.js",
     "start:front": "parcel src/index_test.html --open",
     "start:file": "npm run build && node build/index_file.js",
-    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q build/proyectoCoingecko/server.js\""
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q build/proyectoCoingecko/server.js\"",
+    "start2": "npx tsc && node build/proyectoCoingecko/index.js"
   },
   "author": "",
   "license": "ISC",
